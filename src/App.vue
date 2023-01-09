@@ -21,8 +21,7 @@
 
       return setToUpperCase ? `${letter.toUpperCase()}${space.repeat(numberOfSpaces)}` : `${letter}${space.repeat(numberOfSpaces)}`;
     })
-    .join('')
-    .replaceAll('_', ' ');
+    .join('');
   };
 
   const handleClick = () => {
